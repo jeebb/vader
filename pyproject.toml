@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "vader"
+version = "0.1.0"
+description = "A command-line application that uses the Python SDK of OpenAI to interact with OpenAI's API."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.10.2"
+
+[tool.poetry.scripts]
+vader = "vader.cli:main"
